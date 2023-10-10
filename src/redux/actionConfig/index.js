@@ -1,0 +1,471 @@
+// --------------------------------CUSTOMER SIGNUP FLOW------------------------------//
+
+export const CUSTOMER_SIGN_UP = 'CUSTOMER_SIGN_UP';
+export const CUSTOMER_SIGN_UP_SUCCESS = 'CUSTOMER_SIGN_UP_SUCCESS';
+export const CUSTOMER_SIGN_UP_FAILURE = 'CUSTOMER_SIGN_UP_FAILURE';
+
+export const GET_CUSTOMER_DETAILS = 'GET_CUSTOMER_DETAILS';
+export const GET_CUSTOMER_DETAILS_SUCCESS = 'GET_CUSTOMER_DETAILS_SUCCESS';
+
+// --------------------------------CUSTOMER SIGNIN------------------------------//
+
+export const CUSTOMER_SIGN_IN = 'CUSTOMER_SIGN_IN';
+export const CUSTOMER_SIGN_IN_SUCCESS = 'CUSTOMER_SIGN_IN_SUCCESS';
+export const CUSTOMER_SIGN_IN_FAILURE = 'CUSTOMER_SIGN_IN_FAILURE';
+
+export const FORGOT_PASS = 'FORGOT_PASS';
+export const FORGOT_PASS_SUCCESS = 'FORGOT_PASS_SUCCESS';
+export const FORGOT_PASS_FAILURE = 'FORGOT_PASS_FAILURE';
+
+export const ADD_RECOMMENDATION = 'ADD_RECOMMENDATION';
+export const ADD_RECOMMENDATION_SUCCESS = 'ADD_RECOMMENDATION_SUCCESS';
+export const ADD_RECOMMENDATION_FAILURE = 'ADD_RECOMMENDATION_FAILURE';
+
+export const ADD_REVIEW = 'ADD_REVIEW';
+export const ADD_REVIEW_SUCCESS = 'ADD_REVIEW_SUCCESS';
+export const ADD_REVIEW_FAILURE = 'ADD_REVIEW_FAILURE';
+
+export const OTP_SENT_CUSTOMER = 'OTP_SENT_CUSTOMER';
+export const OTP_SENT_CUSTOMER_SUCCESS = 'OTP_SENT_CUSTOMER_SUCCESS';
+export const OTP_SENT_CUSTOMER_FAILURE = 'OTP_SENT_CUSTOMER_FAILURE';
+
+// --------------------------------STYLIST SIGNUP FLOW------------------------------//
+export const STYLIST_SIGN_UP = 'STYLIST_SIGN_UP';
+export const STYLIST_SIGN_UP_SUCCESS = 'STYLIST_SIGN_UP_SUCCESS';
+export const STYLIST_SIGN_UP_FAILURE = 'STYLIST_SIGN_UP_FAILURE';
+
+export const OTP_SENT = 'OTP_SENT';
+export const OTP_SENT_SUCCESS = 'OTP_SENT_SUCCESS';
+export const OTP_SENT_FAILURE = 'OTP_SENT_FAILURE';
+
+export const STYLIST_PROFILE_UPLOAD = 'STYLIST_PROFILE_UPLOAD';
+export const STYLIST_PROFILE_UPLOAD_SUCCESS = 'STYLIST_PROFILE_UPLOAD_SUCCESS';
+export const STYLIST_PROFILE_UPLOAD_FAILURE = 'STYLIST_PROFILE_UPLOAD_FAILURE';
+
+export const ADD_STYLIST_PROFESSION_DETAILS = 'ADD_STYLIST_PROFESSION_DETAILS';
+export const ADD_STYLIST_PROFESSION_DETAILS_SUCCESS =
+  'ADD_STYLIST_PROFESSION_DETAILS_SUCCESS';
+export const ADD_STYLIST_PROFESSION_DETAILS_FAILURE =
+  'ADD_STYLIST_PROFESSION_DETAILS_FAILURE';
+
+export const ADD_STYLIST_SALON_DETAILS = 'ADD_STYLIST_SALON_DETAILS';
+export const ADD_STYLIST_SALON_DETAILS_SUCCESS =
+  'ADD_STYLIST_SALON_DETAILS_SUCCESS';
+export const ADD_STYLIST_SALON_DETAILS_FAILURE =
+  'ADD_STYLIST_SALON_DETAILS_FAILURE';
+
+export const ADD_STYLIST_WORK_HOURS = 'ADD_STYLIST_WORK_HOURS';
+export const ADD_STYLIST_WORK_HOURS_SUCCESS = 'ADD_STYLIST_WORK_HOURS_SUCCESS';
+export const ADD_STYLIST_WORK_HOURS_FAILURE = 'ADD_STYLIST_WORK_HOURS_FAILURE';
+
+// --------------------------------STYLIST SIGNIN------------------------------//
+
+export const STYLIST_SIGN_IN = 'STYLIST_SIGN_IN';
+export const STYLIST_SIGN_IN_SUCCESS = 'STYLIST_SIGN_IN_SUCCESS';
+export const STYLIST_SIGN_IN_FAILURE = 'STYLIST_SIGN_IN_FAILURE';
+
+export const GET_STYLIST_DETAILS = 'GET_STYLIST_DETAILS';
+export const GET_STYLIST_DETAILS_SUCCESS = 'GET_STYLIST_DETAILS_SUCCESS';
+
+//...............................Country Code................................//
+
+export const COUNTRY_CODE_DETAILS = 'COUNTRY_CODE_DETAILS';
+export const COUNTRY_CODE_DETAILS_SUCCESS = 'COUNTRY_CODE_DETAILS_SUCCESS';
+export const COUNTRY_CODE_DETAILS_FAILURE = 'COUNTRY_CODE_DETAILS_FAILURE';
+
+// --------------------------------ADD SERVICE ------------------------------//
+
+export const ADD_STYLIST_SERVICES = 'ADD_STYLIST_SERVICES';
+export const ADD_STYLIST_SERVICES_SUCCESS = 'ADD_STYLIST_SERVICES_SUCCESS';
+export const ADD_STYLIST_SERVICES_FAILURE = 'ADD_STYLIST_SERVICES_FAILURE';
+
+// --------------------------------EDIT SERVICE ------------------------------//
+
+export const EDIT_STYLIST_SERVICES = 'EDIT_STYLIST_SERVICES';
+export const EDIT_STYLIST_SERVICES_SUCCESS = 'EDIT_STYLIST_SERVICES_SUCCESS';
+export const EDIT_STYLIST_SERVICES_FAILURE = 'EDIT_STYLIST_SERVICES_FAILURE';
+
+// --------------------------------DELETE SERVICE ------------------------------//
+
+export const DELETE_STYLIST_SERVICES = 'DELETE_STYLIST_SERVICES';
+export const DELETE_STYLIST_SERVICES_SUCCESS =
+  'DELETE_STYLIST_SERVICES_SUCCESS';
+export const DELETE_STYLIST_SERVICES_FAILURE =
+  'DELETE_STYLIST_SERVICES_FAILURE';
+
+// --------------------------------ADD SERVICE DISCOUNT------------------------------//
+
+export const ADD_SERVICES_DISCOUNT = 'ADD_SERVICES_DISCOUNT';
+export const ADD_SERVICES_DISCOUNT_SUCCESS = 'ADD_SERVICES_DISCOUNT_SUCCESS';
+export const ADD_SERVICES_DISCOUNT_FAILURE = 'ADD_SERVICES_DISCOUNT_FAILURE';
+// --------------------------------GET SERVICE ------------------------------//
+
+export const GET_STYLIST_SERVICES = 'GET_STYLIST_SERVICES';
+export const GET_STYLIST_SERVICES_SUCCESS = 'GET_STYLIST_SERVICES_SUCCESS';
+
+// --------------------------------GET SERVICE CATEGORY------------------------------//
+
+export const GET_STYLIST_SERVICES_CAT_SUCCESS =
+  'GET_STYLIST_SERVICES_CAT_SUCCESS';
+
+// --------------------------------UPDATE STYLIST ACCOUNT INFO ------------------------------//
+
+export const UPDATE_ACCOUNT_INFO = 'UPDATE_ACCOUNT_INFO';
+export const UPDATE_ACCOUNT_INFO_SUCCESS = 'UPDATE_ACCOUNT_INFO_SUCCESS';
+export const UPDATE_ACCOUNT_INFO_FAILURE = 'UPDATE_ACCOUNT_INFO_FAILURE';
+
+// --------------------------------UPDATE STYLIST PASSWORD ------------------------------//
+
+export const UPDATE_PASSWORD = 'UPDATE_PASSWORD';
+export const UPDATE_PASSWORD_SUCCESS = 'UPDATE_PASSWORD_SUCCESS';
+export const UPDATE_PASSWORD_FAILURE = 'UPDATE_PASSWORD_FAILURE';
+
+// --------------------------------ADD PORTFOLIO IMAGE ------------------------------//
+
+export const ADD_PORTFOLIO_IMAGE = 'ADD_PORTFOLIO_IMAGE';
+export const ADD_PORTFOLIO_IMAGE_SUCCESS = 'ADD_PORTFOLIO_IMAGE_SUCCESS';
+export const ADD_PORTFOLIO_IMAGE_FAILURE = 'ADD_PORTFOLIO_IMAGE_FAILURE';
+
+// --------------------------------GET PORTFOLIO IMAGE ------------------------------//
+
+export const GET_PORTFOLIO_IMAGE = 'GET_PORTFOLIO_IMAGE';
+export const GET_PORTFOLIO_IMAGE_SUCCESS = 'GET_PORTFOLIO_IMAGE_SUCCESS';
+export const GET_PORTFOLIO_IMAGE_FAILURE = 'GET_PORTFOLIO_IMAGE_FAILURE';
+
+// --------------------------------GET NEWS LIST ------------------------------//
+
+export const GET_NEWS_LIST = 'GET_NEWS_LIST';
+export const GET_NEWS_LIST_SUCCESS = 'GET_NEWS_LIST_SUCCESS';
+
+// --------------------------------GET FAVOURITES STYLIST ------------------------------//
+
+export const GET_FAVOURITES_STYLIST = 'GET_FAVOURITES_STYLIST';
+export const GET_FAVOURITES_STYLIST_SUCCESS = 'GET_FAVOURITES_STYLIST_SUCCESS';
+
+// --------------------------------GET FAVOURITES LIST ------------------------------//
+
+export const GET_FAVOURITES_STYLIST_LIST = 'GET_FAVOURITES_STYLIST_LIST';
+export const GET_FAVOURITES_STYLIST_LIST_SUCCESS =
+  'GET_FAVOURITES_STYLIST_LIST_SUCCESS';
+export const GET_FAVOURITES_BARBER_LIST = 'GET_FAVOURITES_BARBER_LIST';
+export const GET_FAVOURITES_BARBER_LIST_SUCCESS =
+  'GET_FAVOURITES_BARBER_LIST_SUCCESS';
+
+// --------------------------------GET NEWS DETAIL ------------------------------//
+
+export const GET_NEWS_DETAIL = 'GET_NEWS_DETAIL';
+export const GET_NEWS_DETAIL_SUCCESS = 'GET_NEWS_DETAIL_SUCCESS';
+
+// --------------------------------ADD SUBSCRIPTION ------------------------------//
+
+export const ADD_SUBSCRIPTION = 'ADD_SUBSCRIPTION';
+export const ADD_SUBSCRIPTION_SUCCESS = 'ADD_SUBSCRIPTION_SUCCESS';
+export const ADD_SUBSCRIPTION_FAILURE = 'ADD_SUBSCRIPTION_FAILURE';
+
+// --------------------------------CUSTOMER APPOINTMENT ------------------------------//
+
+export const GET_CUSTOMER_APPOINTMENT = 'GET_CUSTOMER_APPOINTMENT';
+export const GET_CUSTOMER_APPOINTMENT_SUCCESS =
+  'GET_CUSTOMER_APPOINTMENT_SUCCESS';
+
+// --------------------------------CUSTOMER APPOINTMENT REQUEST------------------------------//
+
+export const CUSTOMER_APPOINTMENT_REQUEST = 'CUSTOMER_APPOINTMENT_REQUEST';
+export const CUSTOMER_APPOINTMENT_REQUEST_SUCCESS =
+  'CUSTOMER_APPOINTMENT_REQUEST_SUCCESS';
+export const CUSTOMER_APPOINTMENT_REQUEST_FAILURE =
+  'CUSTOMER_APPOINTMENT_REQUEST_FAILURE';
+
+// --------------------------------GET APPOINTMENT SLOT------------------------------//
+
+export const GET_APPOINTMENT_SLOT = 'GET_APPOINTMENT_SLOT';
+export const GET_APPOINTMENT_SLOT_SUCCESS = 'GET_APPOINTMENT_SLOT_SUCCESS';
+export const GET_APPOINTMENT_SLOT_FAILURE = 'GET_APPOINTMENT_SLOT_FAILURE';
+
+// --------------------------------GET APPOINTMENT DETAIL------------------------------//
+
+export const GET_APPOINTMENT_DETAIL = 'GET_APPOINTMENT_DETAIL';
+export const GET_APPOINTMENT_DETAIL_SUCCESS = 'GET_APPOINTMENT_DETAIL_SUCCESS';
+
+// --------------------------------STYLIST APPOINTMENT ------------------------------//
+
+export const GET_STYLIST_APPOINTMENT = 'GET_STYLIST_APPOINTMENT';
+export const GET_STYLIST_APPOINTMENT_SUCCESS =
+  'GET_STYLIST_APPOINTMENT_SUCCESS';
+
+// --------------------------------STYLIST UPCOMING APPOINTMENT ------------------------------//
+
+export const GET_STYLIST_UPCOMING_APPOINTMENT =
+  'GET_STYLIST_UPCOMING_APPOINTMENT';
+export const GET_STYLIST_UPCOMING_APPOINTMENT_SUCCESS =
+  'GET_STYLIST_UPCOMING_APPOINTMENT_SUCCESS';
+
+// -------------------------------- GET ALL STYLIST ------------------------------//
+
+export const GET_ALL_STYLIST = 'GET_ALL_STYLIST';
+export const GET_ALL_STYLIST_SUCCESS = 'GET_ALL_STYLIST_SUCCESS';
+
+// -------------------------------- GET ALL POPULAR STYLIST ------------------------------//
+
+export const GET_POPULAR_STYLIST = 'GET_POPULAR_STYLIST';
+export const GET_POPULAR_STYLIST_SUCCESS = 'GET_POPULAR_STYLIST_SUCCESS';
+
+// -------------------------------- GET ALL POPULAR BARBER ------------------------------//
+
+export const GET_POPULAR_BARBER = 'GET_POPULAR_BARBER';
+export const GET_POPULAR_BARBER_SUCCESS = 'GET_POPULAR_BARBER_SUCCESS';
+
+// --------------------------------CHANGE STATUS OF APPOINTMENT ------------------------------//
+
+export const CHANGE_APPOINTMENT_STATUS = 'CHANGE_APPOINTMENT_STATUS';
+export const CHANGE_APPOINTMENT_STATUS_SUCCESS =
+  'CHANGE_APPOINTMENT_STATUS_SUCCESS';
+export const CHANGE_APPOINTMENT_STATUS_FAILURE =
+  'CHANGE_APPOINTMENT_STATUS_FAILURE';
+
+// --------------------------------NOTIFICATION ------------------------------//
+
+export const GET_STYLIST_NOTIFICATION = 'GET_STYLIST_NOTIFICATION';
+export const GET_STYLIST_NOTIFICATION_SUCCESS =
+  'GET_STYLIST_NOTIFICATION_SUCCESS';
+export const GET_STYLIST_NOTIFICATION_FAILURE =
+  'GET_STYLIST_NOTIFICATION_FAILURE';
+
+export const CLEAR_STYLIST_NOTIFICATION = 'CLEAR_STYLIST_NOTIFICATION';
+export const CLEAR_STYLIST_NOTIFICATION_SUCCESS =
+  'CLEAR_STYLIST_NOTIFICATION_SUCCESS';
+export const CLEAR_STYLIST_NOTIFICATION_FAILURE =
+  'CLEAR_STYLIST_NOTIFICATION_FAILURE';
+
+// --------------------------------GET SERVICE WITH ID ------------------------------//
+
+export const GET_CUSTOMER_STYLIST_SERVICES = 'GET_CUSTOMER_STYLIST_SERVICES';
+export const GET_CUSTOMER_STYLIST_SERVICES_SUCCESS =
+  'GET_CUSTOMER_STYLIST_SERVICES_SUCCESS';
+
+// --------------------------------MAKE INSTALLMENT PAYMENT ------------------------------//
+
+export const MAKE_INSTALLMENT_PAYMENT = 'MAKE_INSTALLMENT_PAYMENT';
+export const MAKE_INSTALLMENT_PAYMENT_SUCCESS =
+  'MAKE_INSTALLMENT_PAYMENT_SUCCESS';
+export const MAKE_INSTALLMENT_PAYMENT_FAILURE =
+  'MAKE_INSTALLMENT_PAYMENT_FAILURE';
+
+// --------------------------------CUSTOMER PROFILE UPLOAD ------------------------------//
+
+export const CUSTOMER_PROFILE_UPLOAD = 'CUSTOMER_PROFILE_UPLOAD';
+export const CUSTOMER_PROFILE_UPLOAD_SUCCESS =
+  'CUSTOMER_PROFILE_UPLOAD_SUCCESS';
+export const CUSTOMER_PROFILE_UPLOAD_FAILURE =
+  'CUSTOMER_PROFILE_UPLOAD_FAILURE';
+
+export const GET_RECOMMENDATION = 'GET_RECOMMENDATION';
+export const GET_RECOMMENDATION_SUCCESS = 'GET_RECOMMENDATION_SUCCESS';
+export const GET_RECOMMENDATION_FAILURE = 'GET_RECOMMENDATION_FAILURE';
+
+export const GET_REVIEW = 'GET_REVIEW';
+export const GET_REVIEW_SUCCESS = 'GET_REVIEW_SUCCESS';
+export const GET_REVIEW_FAILURE = 'GET_REVIEW_FAILURE';
+
+// --------------------------------PHOTO OF THE DAY ------------------------------//
+
+export const GET_PHOTO_OF_THE_DAY = 'GET_PHOTO_OF_THE_DAY';
+export const GET_PHOTO_OF_THE_DAY_SUCCESS = 'GET_PHOTO_OF_THE_DAY_SUCCESS';
+export const GET_PHOTO_OF_THE_DAY_FAILURE = 'GET_PHOTO_OF_THE_DAY_FAILURE';
+
+// --------------------------------LIKE STYLIST PROFILE ------------------------------//
+
+export const LIKE_STYLIST_PROFILE = 'LIKE_STYLIST_PROFILE';
+export const LIKE_STYLIST_PROFILE_SUCCESS = 'LIKE_STYLIST_PROFILE_SUCCESS';
+export const LIKE_STYLIST_PROFILE_FAILURE = 'LIKE_STYLIST_PROFILE_FAILURE';
+
+// --------------------------------DISLIKE STYLIST PROFILE ------------------------------//
+
+export const DISLIKE_STYLIST_PROFILE = 'DISLIKE_STYLIST_PROFILE';
+export const DISLIKE_STYLIST_PROFILE_SUCCESS =
+  'DISLIKE_STYLIST_PROFILE_SUCCESS';
+
+// --------------------------------LIKE PHOTO OF THE DAY ------------------------------//
+
+export const LIKE_PHOTO_OF_THE_DAY = 'LIKE_PHOTO_OF_THE_DAY';
+export const LIKE_PHOTO_OF_THE_DAY_SUCCESS = 'LIKE_PHOTO_OF_THE_DAY_SUCCESS';
+export const LIKE_PHOTO_OF_THE_DAY_FAILURE = 'LIKE_PHOTO_OF_THE_DAY_FAILURE';
+
+// --------------------------------DISLIKE PHOTO OF THE DAY ------------------------------//
+
+export const DISLIKE_PHOTO_OF_THE_DAY = 'DISLIKE_PHOTO_OF_THE_DAY';
+export const DISLIKE_PHOTO_OF_THE_DAY_SUCCESS =
+  'DISLIKE_PHOTO_OF_THE_DAY_SUCCESS';
+
+// --------------------------------LIKE MY PHOTO ------------------------------//
+
+export const LIKE_MY_PHOTO = 'LIKE_MY_PHOTO';
+export const LIKE_MY_PHOTO_SUCCESS = 'LIKE_MY_PHOTO_SUCCESS';
+export const LIKE_MY_PHOTO_FAILURE = 'LIKE_MY_PHOTO_FAILURE';
+
+// --------------------------------DISLIKE MY PHOTO ------------------------------//
+
+export const DISLIKE_MY_PHOTO = 'DISLIKE_MY_PHOTO';
+export const DISLIKE_MY_PHOTO_SUCCESS = 'DISLIKE_MY_PHOTO_SUCCESS';
+
+// --------------------------------GET CUSTOMER STYLIST LIKE ------------------------------//
+
+export const GET_CUSTOMER_STYLIST_LIKE = 'GET_CUSTOMER_STYLIST_LIKE';
+export const GET_CUSTOMER_STYLIST_LIKE_SUCCESS =
+  'GET_CUSTOMER_STYLIST_LIKE_SUCCESS';
+export const GET_CUSTOMER_STYLIST_LIKE_FAILURE =
+  'GET_CUSTOMER_STYLIST_LIKE_FAILURE';
+
+// -------------------------------- CUSTOMER LIKE STYLIST PHOTO ------------------------------//
+
+export const CUSTOMER_LIKE_STYLIST_PHOTO = 'CUSTOMER_LIKE_STYLIST_PHOTO';
+export const CUSTOMER_LIKE_STYLIST_PHOTO_SUCCESS =
+  'CUSTOMER_LIKE_STYLIST_PHOTO_SUCCESS';
+export const CUSTOMER_LIKE_STYLIST_PHOTO_FAILURE =
+  'CUSTOMER_LIKE_STYLIST_PHOTO_FAILURE';
+
+// -------------------------------- CUSTOMER DISLIKE STYLIST PHOTO ------------------------------//
+
+export const CUSTOMER_DISLIKE_STYLIST_PHOTO = 'CUSTOMER_DISLIKE_STYLIST_PHOTO';
+export const CUSTOMER_DISLIKE_STYLIST_PHOTO_SUCCESS =
+  'CUSTOMER_DISLIKE_STYLIST_PHOTO_SUCCESS';
+export const CUSTOMER_DISLIKE_STYLIST_PHOTO_FAILURE =
+  'CUSTOMER_DISLIKE_STYLIST_PHOTO_FAILURE';
+
+// -------------------------------- GET LIKED PHOTO ------------------------------//
+
+export const GET_LIKED_PHOTO = 'GET_LIKED_PHOTO';
+export const GET_LIKED_PHOTO_SUCCESS = 'GET_LIKED_PHOTO_SUCCESS';
+
+// --------------------------------GET STYLIST PORTFOLIO ------------------------------//
+
+export const GET_STYLIST_PORTFOLIO = 'GET_STYLIST_PORTFOLIO';
+export const GET_STYLIST_PORTFOLIO_SUCCESS = 'GET_STYLIST_PORTFOLIO_SUCCESS';
+export const GET_STYLIST_PORTFOLIO_FAILURE = 'GET_STYLIST_PORTFOLIO_FAILURE';
+
+// --------------------------------SOCIAL SIGNUP ------------------------------//
+
+export const SOCIAL_SIGNUP = 'SOCIAL_SIGNUP';
+export const SOCIAL_SIGNUP_SUCCESS = 'SOCIAL_SIGNUP_SUCCESS';
+export const SOCIAL_SIGNUP_FAILURE = 'SOCIAL_SIGNUP_FAILURE';
+
+// --------------------------------SOCIAL SIGNIN ------------------------------//
+
+export const SOCIAL_SIGNIN = 'SOCIAL_SIGNIN';
+export const SOCIAL_SIGNIN_SUCCESS = 'SOCIAL_SIGNIN_SUCCESS';
+export const SOCIAL_SIGNIN_FAILURE = 'SOCIAL_SIGNIN_FAILURE';
+
+// --------------------------------CONTACT STYLIST ------------------------------//
+
+export const CONTACT_STYLIST = 'CONTACT_STYLIST';
+export const CONTACT_STYLIST_SUCCESS = 'CONTACT_STYLIST_SUCCESS';
+export const CONTACT_STYLIST_FAILURE = 'CONTACT_STYLIST_FAILURE';
+
+// --------------------------------CONTACT STYLIST ------------------------------//
+
+export const FILTER_STYLIST = 'FILTER_STYLIST';
+export const FILTER_STYLIST_SUCCESS = 'FILTER_STYLIST_SUCCESS';
+export const FILTER_STYLIST_FAILURE = 'FILTER_STYLIST_FAILURE';
+
+// --------------------------------LOGOUT------------------------------//
+
+export const LOGOUT = 'LOGOUT';
+
+// --------------------------------ABOUT US------------------------------//
+
+export const GET_ABOUT_US = 'GET_ABOUT_US';
+export const GET_ABOUT_US_SUCCESS = 'GET_ABOUT_US_SUCCESS';
+
+// --------------------------------PRIVACY POLICY------------------------------//
+
+export const GET_PRIVACY_POLICY = 'GET_PRIVACY_POLICY';
+export const GET_PRIVACY_POLICY_SUCCESS = 'GET_PRIVACY_POLICY_SUCCESS';
+
+// --------------------------------TERM AND COND------------------------------//
+
+export const GET_TERM_AND_COND = 'GET_TERM_AND_COND';
+export const GET_TERM_AND_COND_SUCCESS = 'GET_TERM_AND_COND_SUCCESS';
+
+// --------------------------------GET AVAILABLE DAYS ------------------------------//
+
+export const GET_AVAILABLE_DAYS = 'GET_AVAILABLE_DAYS';
+export const GET_AVAILABLE_DAYS_SUCCESS = 'GET_AVAILABLE_DAYS_SUCCESS';
+export const GET_AVAILABLE_DAYS_FAILURE = 'GET_AVAILABLE_DAYS_FAILURE';
+
+// --------------------------------DELETE STYLIST PORT _IMAGES ------------------------------//
+
+export const DELETE_STYLIST_PORT_IMAGE = 'DELETE_STYLIST_PORT_IMAGE';
+export const DELETE_STYLIST_PORT_IMAGE_SUCCESS =
+  'DELETE_STYLIST_PORT_IMAGE_SUCCESS';
+export const DELETE_STYLIST_PORT_IMAGE_FAILURE =
+  'DELETE_STYLIST_PORT_IMAGE_FAILURE';
+
+// --------------------------------CREATE STRIPE CUSTOMER ------------------------------//
+
+export const CREATE_STRIPE_CUSTOMER = 'CREATE_STRIPE_CUSTOMER';
+export const CREATE_STRIPE_CUSTOMER_SUCCESS = 'CREATE_STRIPE_CUSTOMER_SUCCESS';
+export const CREATE_STRIPE_CUSTOMER_FAILURE = 'CREATE_STRIPE_CUSTOMER_FAILURE';
+
+// --------------------------------ADD PAYMENT CARD ------------------------------//
+
+export const ADD_PAYMENT_CARD = 'ADD_PAYMENT_CARD';
+export const ADD_PAYMENT_CARD_SUCCESS = 'ADD_PAYMENT_CARD_SUCCESS';
+export const ADD_PAYMENT_CARD_FAILURE = 'ADD_PAYMENT_CARD_FAILURE';
+
+// --------------------------------GET PAYMENT CARD ------------------------------//
+
+export const GET_PAYMENT_CARD = 'GET_PAYMENT_CARD';
+export const GET_PAYMENT_CARD_SUCCESS = 'GET_PAYMENT_CARD_SUCCESS';
+export const GET_PAYMENT_CARD_FAILURE = 'GET_PAYMENT_CARD_FAILURE';
+
+// --------------------------------DELETE PAYMENT CARD ------------------------------//
+
+export const DELETE_PAYMENT_CARD = 'DELETE_PAYMENT_CARD';
+export const DELETE_PAYMENT_CARD_SUCCESS = 'DELETE_PAYMENT_CARD_SUCCESS';
+export const DELETE_PAYMENT_CARD_FAILURE = 'DELETE_PAYMENT_CARD_FAILURE';
+
+// --------------------------------ADD BANK ACCOUNT ------------------------------//
+
+export const ADD_BANK_ACCOUNT = 'ADD_BANK_ACCOUNT';
+export const ADD_BANK_ACCOUNT_SUCCESS = 'ADD_BANK_ACCOUNT_SUCCESS';
+export const ADD_BANK_ACCOUNT_FAILURE = 'ADD_BANK_ACCOUNT_FAILURE';
+
+// --------------------------------GET BANK ACCOUNT ------------------------------//
+
+export const GET_BANK_ACCOUNT = 'GET_BANK_ACCOUNT';
+export const GET_BANK_ACCOUNT_SUCCESS = 'GET_BANK_ACCOUNT_SUCCESS';
+export const GET_BANK_ACCOUNT_FAILURE = 'GET_BANK_ACCOUNT_FAILURE';
+
+// --------------------------------UPDATE BANK ACCOUNT ------------------------------//
+
+export const UPDATE_BANK_ACCOUNT = 'UPDATE_BANK_ACCOUNT';
+export const UPDATE_BANK_ACCOUNT_SUCCESS = 'UPDATE_BANK_ACCOUNT_SUCCESS';
+export const UPDATE_BANK_ACCOUNT_FAILURE = 'UPDATE_BANK_ACCOUNT_FAILURE';
+
+// --------------------------------GET TAGGABLE USER ------------------------------//
+
+export const GET_TAGGABLE_USER = 'GET_TAGGABLE_USER';
+export const GET_TAGGABLE_USER_SUCCESS = 'GET_TAGGABLE_USER_SUCCESS';
+export const GET_TAGGABLE_USER_FAILURE = 'GET_TAGGABLE_USER_FAILURE';
+
+// --------------------------------TAG CUSTOMER ------------------------------//
+
+export const TAG_CUSTOMER = 'TAG_CUSTOMER';
+export const TAG_CUSTOMER_SUCCESS = 'TAG_CUSTOMER_SUCCESS';
+export const TAG_CUSTOMER_FAILURE = 'TAG_CUSTOMER_FAILURE';
+
+// --------------------------------INVOICE DETAILS ------------------------------//
+
+export const GET_STYLIST_INVOICE = 'GET_STYLIST_INVOICE';
+export const GET_STYLIST_INVOICE_SUCCESS = 'GET_STYLIST_INVOICE_SUCCESS';
+export const GET_STYLIST_INVOICE_FAILURE = 'GET_STYLIST_INVOICE_FAILURE';
+
+export const GET_CUSTOMER_INVOICE = 'GET_CUSTOMER_INVOICE';
+export const GET_CUSTOMER_INVOICE_SUCCESS = 'GET_CUSTOMER_INVOICE_SUCCESS';
+export const GET_CUSTOMER_INVOICE_FAILURE = 'GET_CUSTOMER_INVOICE_FAILURE';
+
+// --------------------------------CHANGE FORMAT ------------------------------//
+
+export const CHANGE_TEMPLATE = 'CHANGE_TEMPLATE';
+export const CHANGE_TEMPLATE_SUCCESS = 'CHANGE_TEMPLATE_SUCCESS';
+export const CHANGE_TEMPLATE_FAILURE = 'CHANGE_TEMPLATE_FAILURE';

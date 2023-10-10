@@ -1,0 +1,15 @@
+module.exports = {
+  Lato_Black: 'Lato-Black',
+  Lato_Bold: 'Lato-Bold',
+  Lato_Heavy: 'Lato-Heavy',
+  Lato_Medium: 'Lato-Medium',
+  Lato_Regular: 'Lato-Regular',
+  Lato_Semibold: 'Lato-Semibold',
+  HeveticaNowText_Black: 'HelveticaNowText-Black',
+  HeveticaNowText_Medium: 'HelveticaNowText-Medium',
+  HeveticaNowText_Regular: 'HelveticaNowText-Regular',
+  HeveticaNowText_LightItalic: 'HelveticaNowText-LightItalic',
+  HeveticaNowText_BlackItalic: 'HelveticaNowText-BlackItalic',
+  HeveticaNowText_Bold: 'HelveticaNowText-Bold',
+  HeveticaNowText_ExtraBold: 'HelveticaNowText-ExtraBold',
+};
